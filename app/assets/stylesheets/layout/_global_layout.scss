@@ -1,5 +1,5 @@
-$left-sidebar-width: 250px;
-$right-sidebar-width: 250px;
+$left-sidebar-width: 300px;
+$right-sidebar-width: #{$left-sidebar-width};
 
 #wrapper{
   // padding:0px;
