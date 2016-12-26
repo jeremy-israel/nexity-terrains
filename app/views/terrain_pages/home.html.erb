@@ -42,9 +42,59 @@
               <div class="col-lg-12 null-hpadding">
                   <%#= render 'shared/navbar' %>
                   <div class="nexity-navbar">
+
                     <%= link_to "/", class:"navbar-logo" do %>
                       <%= image_tag "logo.svg" %>
                     <% end %>
+
+                    <ul class="list-inline mobile-hidden">
+                      <li>AGENCES</li>
+                      <li>PROGRAMMES</li>
+                      <li>ACTUALITES</li>
+                    </ul>
+
+                    <div class="right-nav-desktop mobile-hidden">
+                      <!-- Facebook -->
+                      <div class="icon-with-text">
+                        <%= image_tag "facebook-nexity-grey.svg", class:"fb-grey-icon" %>
+                        <p>FACEBOOK</p>
+                      </div>
+
+                      <!-- ||| Barre verticale -->
+                      <div class="vertical-bar"></div>
+
+                      <!-- Contact -->
+                      <div class="icon-with-text">
+                        <%= image_tag "enveloppe-nexity-grey.svg", class:"fb-grey-icon" %>
+                        <p>CONTACT</p>
+                      </div>
+
+                      <!-- ||| Barre verticale -->
+                      <div class="vertical-bar"></div>
+
+                      <!-- Espace de vente -->
+                      <div class="icon-with-text">
+                        <%= image_tag "map-pin-nexity-grey.svg", class:"fb-grey-icon" %>
+                        <p>ESPACES DE VENTE</p>
+                      </div>
+
+                      <!-- ||| Barre verticale -->
+                      <div class="vertical-bar"></div>
+
+                      <!-- Telephones -->
+                      <div class="icon-with-text">
+                        <%= image_tag "phone-nexity-grey.svg", class:"fb-grey-icon" %>
+                        <p>TELEPHONE</p>
+                      </div>
+
+                    </div>
+
+                    <div class="right-nav-mobile mobile-displayed">
+
+                    </div>
+
+
+
                   </div>
 
 

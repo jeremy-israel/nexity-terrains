@@ -4,7 +4,50 @@
   left: 0;
   right: 0;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.nexity-navbar > ul.list-inline{
+  margin-bottom: 0px;
+  li{
+    font-family: "Nexity Medium";
+  }
+}
+
+//RIGHT NAV
+.right-nav-desktop{
+  display: none;
+}
+
+.icon-with-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 3vw;
+
+  p{
+    font-family: "Nexity Medium";
+    font-size: 10pt;
+    margin-bottom: 0px;
+  }
+}
+
+.fb-grey-icon{
+  width: 1.5vw;
+}
+
+.vertical-bar{
+  width: 1px;
+  // height: 100%;
+  background-color: grey;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+//END OF RIGHTNAV
+
 
 $navbar-logo-width: 50px;
 $navbar-logo-margin: calc(#{$navbar-logo-width}/3);
@@ -13,7 +56,17 @@ $navbar-logo-margin: calc(#{$navbar-logo-width}/3);
   margin-top: $navbar-logo-margin;
   margin-left: $navbar-logo-margin;
   margin-bottom: $navbar-logo-margin;
+  margin-right: $navbar-logo-margin;
+}
 
+@media(min-width:992px) {
+  .right-nav-desktop{
+    display: flex;
+  }
+
+  .right-nav-mobile{
+    display: none;
+  }
 }
 
 // /* Main class */
