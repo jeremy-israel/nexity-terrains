@@ -21,21 +21,10 @@
   }
 }
 
-
-
-
-
-//LOGO STUFF
-$navbar-logo-width: 4vw;
-$navbar-logo-margin: 1vw;//calc(#{$navbar-logo-width}/3);
-.navbar-logo img{
-  width: $navbar-logo-width;
-  margin-top: $navbar-logo-margin;
-  margin-left: $navbar-logo-margin;
-  margin-bottom: $navbar-logo-margin;
-  margin-right: $navbar-logo-margin;
-}
-//END OF LOGO STUFF
+  .navbar-logo img{
+    width: 9vw;
+    margin: 2vw 2vw;
+  }
 
 .nexity-navbar > ul.list-inline{
   margin-bottom: 0px;
@@ -49,7 +38,7 @@ $navbar-logo-margin: 1vw;//calc(#{$navbar-logo-width}/3);
 //RIGHT NAV
 .right-nav-desktop{
   display: none;
-  margin-right: $navbar-logo-margin;
+  margin-right: 1vw;
 }
 
 .icon-with-text{
@@ -106,6 +95,12 @@ $navbar-logo-margin: 1vw;//calc(#{$navbar-logo-width}/3);
 
   .icon-with-text > p {
     font-size: 0.8vw;//12pt;
+  }
+
+  //LOGO STUFF FOR DESKTOP
+  .navbar-logo img{
+    width: 4vw;
+    margin: 1vw 1vw;
   }
 }
 
