@@ -1,19 +1,27 @@
 @font-face {
-  font-family: "Nexity Regular";
+  font-family: "Nexity";
   src:font-url('Nextiy-Regular.otf') format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: "Nexity Medium";
+  font-family: "Nexity";
   src:font-url('Nexity-Medium.otf') format("truetype");
+  font-style: normal;
+  font-weight: 100;
 }
 
 @font-face {
-  font-family: "Nexity Heavy";
+  font-family: "Nexity";
   src:font-url('Nextiy-Heavy.otf') format("truetype");
+  font-style: normal;
+  font-weight: 200;
 }
 
 @font-face {
-  font-family: "Nexity Bold";
+  font-family: "Nexity";
   src:font-url('Nextiy-Bold.otf') format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
