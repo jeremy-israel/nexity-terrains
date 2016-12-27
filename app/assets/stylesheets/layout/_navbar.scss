@@ -86,15 +86,33 @@
 
 
   .fb-grey-icon{
-    width: 2vw;//test
+    width: 2vw;
+  }
+
+  .grey-icon-div{
+    background: url(facebook-nexity-grey.svg);
+    width: 2vw;
+    height: 2vw;
+    background-size: cover;
+  }
+
+  .icon-with-text:hover{
+    transition: all 0.3s ease;
+    .grey-icon-div{
+      background: url(facebook-nexity-red.svg);
+      background-size: cover;
+    }
+    p{
+      color: $nexity-red;
+    }
   }
 
   .icon-with-text {
-    height: 3.8vw;//71px;
+    height: 3.8vw;
   }
 
   .icon-with-text > p {
-    font-size: 0.8vw;//12pt;
+    font-size: 0.8vw;
   }
 
   //LOGO STUFF FOR DESKTOP
