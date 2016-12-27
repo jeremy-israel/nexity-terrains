@@ -22,8 +22,8 @@
 }
 
   .navbar-logo img{
-    width: 9vw;
-    margin: 2vw 2vw;
+    width: 10vw; //for mobile only
+    margin: 2vw 2vw; //for mobile only
   }
 
 .nexity-navbar > ul.list-inline{
@@ -54,11 +54,75 @@
   }
 }
 
-.vertical-bar{
+.desktop-vertical-bar{
   width: 1px;
   background-color: $nexity-grey-50;
 }
 //END OF RIGHTNAV
+
+
+
+//MOBILE NAV
+.right-nav-mobile{
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nexity-dropdown-bars{
+  font-size: 8vw;
+  color: $nexity-grey;
+}
+
+.nexity-mobile-dropdown-menu{
+  top: 10vw;
+  right: -1.2vw;
+  padding: 0px 0px;
+  border: 0px;
+}
+
+.nexity-mobile-dropdown-line{
+  width: 100vw;
+  height: 16vw;
+  margin-right: -1vw;
+  display: flex;
+  align-items: center;
+  padding-left: 7vw;
+  border: 1px solid $nexity-grey-20;
+  p{
+    font-family: "Nexity";
+    margin-bottom: 0px;
+    font-size: 8vw;
+  }
+}
+
+.close-dropdown{
+  margin-left: 79vw;
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 10vw;
+  width: 10vw;
+  position: relative;
+  p{
+    position: absolute;
+    top: -1.35vw;
+    left: 2.9vw;
+  }
+}
+
+.dropdown-grey-line{
+  background-color: $nexity-grey;
+  color: white;
+
+}
+
+.dropdown-white-line{
+  background-color: white;
+  color: $nexity-red;
+}
+
+
+//END OF MOBILE NAV
 
 @media(min-width:992px) {
   .nexity-navbar{
@@ -80,7 +144,7 @@
     display: none;
   }
 
-  .vertical-bar{
+  .desktop-vertical-bar{
     margin: 0px 0.7vw;
   }
 
